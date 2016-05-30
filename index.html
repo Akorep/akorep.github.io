@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/d162279b83.js"></script>
   <style>
   body {
       font: 400 15px/1.8 Lato, sans-serif;
@@ -16,7 +17,7 @@
   }
   h3, h4 {
       margin: 10px 0 30px 0;
-      letter-spacing: 10px;      
+      letter-spacing: 10px;
       font-size: 20px;
       color: #111;
   }
@@ -95,7 +96,7 @@
   #googleMap {
       width: 100%;
       height: 400px;
-  }  
+  }
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -105,7 +106,7 @@
       letter-spacing: 4px;
       opacity: 0.9;
   }
-  .navbar li a, .navbar .navbar-brand { 
+  .navbar li a, .navbar .navbar-brand {
       color: #d5d5d5 !important;
   }
   .navbar-nav li a:hover {
@@ -139,7 +140,7 @@
   footer a:hover {
       color: #777;
       text-decoration: none;
-  }  
+  }
   .form-control {
       border-radius: 0;
   }
@@ -156,7 +157,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#myPage">Gamestop</a>
     </div>
@@ -179,14 +180,14 @@
       <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
 
-    
+
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="img/game1.png" alt="Battlefield" width="1920" height="1080">
         <div class="carousel-caption">
           <h3>Battlefield 3</h3>
           <p>An FPS shooter with excellent multiplayer gameplay. Developed by EA DICE.</p>
-        </div>      
+        </div>
       </div>
 
       <div class="item">
@@ -194,15 +195,15 @@
         <div class="carousel-caption">
           <h3>Assassin's Creed Unity</h3>
           <p>Another latest major installment in AC franchise, AC Unity brings co-operative multiplayer for the first time, allowing players to seamlessly interact with each other.</p>
-        </div>      
+        </div>
       </div>
-    
+
       <div class="item">
         <img src="img/game3.jpg" alt="Gran Turismo 6" width="1920" height="1080">
         <div class="carousel-caption">
           <h3>Gran Turismo 6</h3>
           <p>The latest release from the legendary Gran Turismo series, GT6 still amazes players and critics alike with it's realistic graphics and physics engine.</p>
-        </div>      
+        </div>
       </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -265,7 +266,7 @@
           <img src="img/gamesum.jpg" alt="Paris" width="300" height="168">
           <p><strong>Prototype</strong></p>
           <p>Releasing on: June 2016</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">View Trailer</button>
+          <button class="btn" data-toggle="modal" data-target="#myModal1">View Trailer</button>
         </div>
       </div>
       <div class="col-sm-4">
@@ -273,7 +274,7 @@
           <img src="img/gameautm.jpg" alt="New York" width="300" height="168">
           <p><strong>World of Tanks</strong></p>
           <p>Releasing on: March 2016</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">View Trailer</button>
+          <button class="btn" data-toggle="modal" data-target="#myModal2">View Trailer</button>
         </div>
       </div>
       <div class="col-sm-4">
@@ -281,19 +282,18 @@
           <img src="img/gamewint.jpg" alt="San Francisco" width="300" height="168">
           <p><strong>Gran Turismo 6</strong></p>
           <p>To be announced on: May 2017</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">View Trailer</button>
+          <button class="btn" data-toggle="modal" data-target="#myModal3">View Trailer</button>
         </div>
       </div>
     </div>
   </div>
-  
-  <div class="modal fade" id="myModal" role="dialog">
+
+  <div class="modal fade" id="myModal1" role="dialog">
     <div class="modal-dialog">
-    
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Bundle Offer</h4>
+          <h4><i class="fa fa-youtube-play" aria-hidden="true"></i> Bundle Offer</h4>
         </div>
         <div class="modal-body">
           <form role="form">
@@ -305,7 +305,7 @@
               <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send Order Info To</label>
               <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
-              <button type="submit" class="btn btn-block">Pay 
+              <button type="submit" class="btn btn-block">Pay
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
           </form>
@@ -321,6 +321,72 @@
   </div>
 </div>
 
+<div class="modal fade" id="myModal2" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4><i class="fa fa-youtube-play" aria-hidden="true"></i> Bundle Offer</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+          <div class="form-group">
+            <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Bundle Price: 250$:-</label>
+            <input type="number" class="form-control" id="psw" placeholder="How many?">
+          </div>
+          <div class="form-group">
+            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send Order Info To</label>
+            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+          </div>
+            <button type="submit" class="btn btn-block">Pay
+              <span class="glyphicon glyphicon-ok"></span>
+            </button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+          <span class="glyphicon glyphicon-remove"></span> Cancel
+        </button>
+        <p>Need <a href="#">help?</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="myModal3" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4><i class="fa fa-youtube-play" aria-hidden="true"></i> Bundle Offer</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+          <div class="form-group">
+            <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Bundle Price: 250$:-</label>
+            <input type="number" class="form-control" id="psw" placeholder="How many?">
+          </div>
+          <div class="form-group">
+            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send Order Info To</label>
+            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+          </div>
+            <button type="submit" class="btn btn-block">Pay
+              <span class="glyphicon glyphicon-ok"></span>
+            </button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+          <span class="glyphicon glyphicon-remove"></span> Cancel
+        </button>
+        <p>Need <a href="#">help?</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 <div id="contact" class="container">
   <h3 class="text-center">Contact</h3>
   <p class="text-center"><em>We love our gaming customers!</em></p>
@@ -330,7 +396,7 @@
       <p>Suggestions? Drop a note.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span>Kerala, India</p>
       <p><span class="glyphicon glyphicon-phone"></span>Phone: +247 34540</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: gamestoponline@gmail.com</p>	   
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: gamestoponline@gmail.com</p>
     </div>
     <div class="col-md-8">
       <div class="row">
@@ -347,11 +413,11 @@
         <div class="col-md-12 form-group">
           <button class="btn pull-right" type="submit">Send</button>
         </div>
-      </div>	
+      </div>
     </div>
   </div>
   <br>
-  <h3 class="text-center">Reviews</h3>  
+  <h3 class="text-center">Reviews</h3>
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home">RDX</a></li>
     <li><a data-toggle="tab" href="#menu1">Agent13</a></li>
@@ -408,30 +474,30 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
-  <p>Designed by The REP <a data-toggle="tooltip" title="Visit w3schools"></a></p> 
+  <p>Designed by The REP <a data-toggle="tooltip" title="Visit w3schools"></a></p>
 </footer>
 
 <script>
 $(document).ready(function(){
 
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  
+  $('[data-toggle="tooltip"]').tooltip();
+
+
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-    
+
     event.preventDefault();
 
-    
+
     var hash = this.hash;
 
-    
-    
+
+
     $('html, body').animate({
       scrollTop: $(hash).offset().top
     }, 900, function(){
-   
-      
+
+
       window.location.hash = hash;
     });
   });
@@ -440,4 +506,3 @@ $(document).ready(function(){
 
 </body>
 </html>
-
